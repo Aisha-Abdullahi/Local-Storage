@@ -10,8 +10,6 @@ console.log(userString);
 
 localStorage.setItem("user", userString);
 
-// const storedUserString = localStorage.getItem("user");
-
 const storedUser = JSON.parse(userString);
 
 
