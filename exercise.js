@@ -10,9 +10,9 @@ console.log(userString);
 
 localStorage.setItem("user", userString);
 
-const storedUserString = localStorage.getItem("user");
+// const storedUserString = localStorage.getItem("user");
 
-const storedUser = JSON.parse(storedUserString);
+const storedUser = JSON.parse(userString);
 
 
 console.log(storedUser);
